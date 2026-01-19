@@ -39,6 +39,7 @@ while($d = mysqli_fetch_assoc($q)){
   <li><a href="../laporan/rekap_bulanan.php">Rekap Bulanan</a></li>
   <li><a href="../laporan/rekap_detail.php">Detail Transaksi</a></li>
   <li><a href="../auth/keluar.php">Logout</a></li>
+  <a href="masuk.php" class="btn-enter">Masuk ke Sistem</a>
 </ul>
 </div>
 
