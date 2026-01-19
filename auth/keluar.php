@@ -16,5 +16,5 @@ if (ini_get("session.use_cookies")) {
 session_destroy(); // Hancurkan session
 
 // Redirect ke login
-header("Location: /arisan/auth/login.php");
+header("Location: /arisan/auth/masuk.php");
 exit;

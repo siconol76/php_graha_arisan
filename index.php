@@ -1,1 +1,1 @@
-<?php header("location:auth/login.php"); ?>
+<?php header("location:auth/masuk.php"); ?>

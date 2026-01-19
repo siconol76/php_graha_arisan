@@ -3,7 +3,7 @@ if (session_status() === PHP_SESSION_NONE) {
     session_start();
 }
 if (!isset($_SESSION['login'])) {
-    header("Location: ../login.php");
+    header("Location: ../masuk.php");
     exit;
 }
 
@@ -26,7 +26,7 @@ if (!$anggota) {
 }
 ?>
 
-<link rel="stylesheet" href="../assets/css/dashboard.css">
+<link rel="stylesheet" href="../assets/css/anggota.css">
 
 <div class="content-box">
 <h2>Edit Anggota</h2>

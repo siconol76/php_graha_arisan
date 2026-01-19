@@ -3,7 +3,7 @@
 }
 
 if (!isset($_SESSION['login'])) {
-    header("Location: ../login.php");
+    header("Location: ../masuk.php");
     exit;
 }
 
