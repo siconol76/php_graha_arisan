@@ -1,6 +1,6 @@
 <?php
 session_start(); // ✨ WAJIB DI SINI
-include "../config/koneksi.php";
+include __DIR__ . "/../config/koneksi.php";
 
 $user = $_POST['username'] ?? '';
 $pass = md5($_POST['password'] ?? '');
