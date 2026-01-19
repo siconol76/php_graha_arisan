@@ -1,0 +1,82 @@
+/* ===============================
+   FORM INPUT TRANSAKSI
+================================ */
+.form-transaksi {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 22px 28px;
+  border-radius: 8px;
+  box-shadow: 0 5px 18px rgba(0, 0, 0, 0.08);
+}
+
+.form-transaksi h2 {
+  font-size: 18px;
+  margin-bottom: 18px;
+  color: #1e3c72;
+  text-align: center;
+  font-weight: bold;
+}
+
+.form-transaksi .form-group {
+  margin-bottom: 14px;
+}
+
+.form-transaksi .form-group label {
+  font-size: 13px;
+  color: #333;
+  display: block;
+  margin-bottom: 6px;
+}
+
+.form-transaksi .form-group input,
+.form-transaksi .form-group select {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 7px;
+  font-size: 14px;
+  color: #333;
+  transition: 0.3s;
+}
+
+.form-transaksi .form-group input:focus,
+.form-transaksi .form-group select:focus {
+  border-color: #2a5298;
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(42, 82, 152, 0.15);
+}
+
+.form-transaksi button {
+  width: 100%;
+  padding: 11px;
+  background: #1e3c72;
+  color: #fff;
+  border: none;
+  border-radius: 7px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-top: 10px;
+}
+
+.form-transaksi button:hover {
+  background: #16305d;
+}
+
+.form-transaksi .note {
+  font-size: 12px;
+  color: #666;
+  margin-top: 4px;
+}
+
+/* ===============================
+   RESPONSIVE
+================================ */
+@media (max-width: 576px) {
+  .form-transaksi {
+    padding: 18px 22px;
+  }
+}

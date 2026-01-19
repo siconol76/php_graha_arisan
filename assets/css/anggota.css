@@ -1,0 +1,102 @@
+.content-box {
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+}
+
+.content-box h2 {
+  margin-bottom: 15px;
+}
+
+.content-box .form-group {
+  margin-bottom: 12px;
+}
+
+.content-box .form-group label {
+  font-size: 13px;
+  display: block;
+  margin-bottom: 6px;
+}
+
+.content-box .form-group input,
+.content-box .form-group select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+/* di dashboard.css */
+.content-box .btn {
+  padding: 7px 12px;
+  background: #1e3c72;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 13px;
+  margin-right: 5px;
+}
+.content-box .btn:hover {
+  background: #16305d;
+}
+
+/* ======= TABLE ANGGOTA ======= */
+.content-box table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 12px;
+  font-size: 14px;
+}
+
+.content-box table th,
+.content-box table td {
+  padding: 10px 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.content-box table th {
+  background: #2a5298;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 0.5px;
+}
+
+.content-box table tr:nth-child(even) {
+  background: #f9f9f9;
+}
+
+.content-box table tr:hover {
+  background: #e8ebf1;
+}
+
+.content-box table td {
+  color: #333;
+}
+
+.content-box table td .btn {
+  display: inline-block;
+  margin: 0 4px;
+  padding: 6px 10px;
+  font-size: 13px;
+}
+
+.content-box table td .btn-edit {
+  background: #28a745;
+  color: #fff;
+}
+
+.content-box table td .btn-edit:hover {
+  background: #218838;
+}
+
+.content-box table td .btn-hapus {
+  background: #dc3545;
+  color: #fff;
+}
+
+.content-box table td .btn-hapus:hover {
+  background: #c82333;
+}

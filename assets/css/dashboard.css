@@ -1,0 +1,183 @@
+/* ===============================
+   RESET & BASE
+================================ */
+* {
+  box-sizing: border-box;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #f4f6f9;
+}
+
+/* ===============================
+   LAYOUT
+================================ */
+.wrapper {
+  display: flex;
+  min-height: 100vh;
+}
+
+/* ===============================
+   SIDEBAR
+================================ */
+.sidebar {
+  width: 240px;
+  background: #1e3c72;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.sidebar h3 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar ul li a {
+  display: block;
+  padding: 12px 25px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.wrapper img {
+  width: 130px; /* ukuran logo */
+  height: auto;
+  margin-left: 38px; /* jarak kiri */
+}
+
+.sidebar ul li a:hover,
+.sidebar ul li a.active {
+  background: rgba(255, 255, 255, 0.15);
+}
+
+/* ===============================
+   CONTENT
+================================ */
+.content {
+  flex: 1;
+  padding: 25px;
+}
+
+/* ===============================
+   TOPBAR
+================================ */
+.topbar {
+  background: #fff;
+  padding: 15px 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+}
+
+.topbar .title {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.topbar .user {
+  font-size: 13px;
+  color: #555;
+}
+
+/* ===============================
+   CARDS
+================================ */
+.cards {
+  margin-top: 25px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card .img {
+  margin: 0;
+  font-size: 14px;
+  color: #777;
+}
+
+.card .nilai {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 10px;
+  color: #1e3c72;
+}
+
+/* ===============================
+   TABLE
+================================ */
+.table-box {
+  margin-top: 30px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+  font-size: 13px;
+}
+
+th {
+  background: #f7f7f7;
+  text-align: left;
+}
+
+/* ===============================
+   BUTTON
+================================ */
+.btn {
+  padding: 8px 14px;
+  background: #1e3c72;
+  color: #fff;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 13px;
+  display: inline-block;
+}
+
+.btn:hover {
+  background: #16305d;
+}
+
+/* ===============================
+   MOBILE
+================================ */
+@media (max-width: 768px) {
+  .sidebar {
+    display: none;
+  }
+}

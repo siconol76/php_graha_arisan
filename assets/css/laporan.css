@@ -1,0 +1,174 @@
+/* ===============================
+   RESET & DASAR
+================================ */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  color: #000;
+  margin: 20px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+  padding: 0;
+}
+
+/* ===============================
+   MODE CETAK
+================================ */
+@media print {
+  form,
+  button,
+  .no-print {
+    display: none !important;
+  }
+
+  body {
+    margin: 0;
+  }
+}
+
+/* ===============================
+   FORM FILTER
+================================ */
+form {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px dashed #aaa;
+  background: #f9f9f9;
+}
+
+input,
+button {
+  padding: 5px 8px;
+  font-size: 12px;
+}
+
+/* ===============================
+   KOP LAPORAN
+================================ */
+.kop {
+  text-align: center;
+  border-bottom: 3px solid #000;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.kop h2 {
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+.kop h3 {
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.kop p {
+  font-size: 12px;
+  margin-top: 3px;
+}
+
+/* ===============================
+   TABEL UMUM
+================================ */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th,
+td {
+  border: 1px solid #000;
+  padding: 6px;
+}
+
+th {
+  background: #efefef;
+  text-align: center;
+}
+
+td {
+  vertical-align: top;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+/* ===============================
+   AKUN / BLOK LAPORAN DETAIL
+================================ */
+.akun {
+  margin-top: 25px;
+  page-break-inside: avoid;
+}
+
+.akun-title {
+  font-weight: bold;
+  font-size: 13px;
+  margin-bottom: 5px;
+}
+
+.saldo-awal {
+  font-style: italic;
+  margin-bottom: 5px;
+}
+
+/* ===============================
+   TOTAL & SALDO
+================================ */
+.total-row th,
+.total-row td {
+  font-weight: bold;
+  background: #f1f1f1;
+}
+
+/* ===============================
+   TANDA TANGAN
+================================ */
+.ttd {
+  margin-top: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.ttd div {
+  width: 200px;
+}
+
+.ttd .nama {
+  margin-top: 60px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/* ===============================
+   FOOTER OPTIONAL
+================================ */
+.footer {
+  position: fixed;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-size: 11px;
+}

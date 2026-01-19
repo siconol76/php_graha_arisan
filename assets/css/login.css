@@ -1,0 +1,142 @@
+/* ===============================
+   RESET & BASE
+================================ */
+* {
+  box-sizing: border-box;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ===============================
+   LOGIN CARD
+================================ */
+.login-box {
+  width: 360px;
+  background: #fff;
+  border-radius: 12px;
+  padding: 35px 30px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
+  animation: fadeUp 0.7s ease;
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ===============================
+   TITLE
+================================ */
+.login-title {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.login-title h2 {
+  margin: 0;
+  font-size: 22px;
+  color: #2a5298;
+}
+
+.login-title p {
+  font-size: 13px;
+  color: #777;
+  margin-top: 4px;
+}
+
+/* ===============================
+   INPUT
+================================ */
+.form-group {
+  margin-bottom: 18px;
+}
+
+.form-group label {
+  font-size: 12px;
+  color: #555;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 11px 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+  margin-top: 5px;
+  transition: 0.3s;
+}
+
+.form-group input:focus {
+  border-color: #2a5298;
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(42, 82, 152, 0.15);
+}
+
+/* ===============================
+   PASSWORD TOGGLE
+================================ */
+.password-box {
+  position: relative;
+}
+
+.password-box span {
+  position: absolute;
+  right: 12px;
+  top: 38px;
+  cursor: pointer;
+  font-size: 13px;
+  color: #666;
+}
+
+/* ===============================
+   BUTTON
+================================ */
+.btn-login {
+  width: 100%;
+  padding: 11px;
+  border: none;
+  border-radius: 8px;
+  background: #2a5298;
+  color: #fff;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-login:hover {
+  background: #1e3c72;
+}
+
+/* ===============================
+   FOOTER
+================================ */
+.login-footer {
+  text-align: center;
+  font-size: 11px;
+  color: #aaa;
+  margin-top: 20px;
+}
+
+/* ===============================
+   MOBILE
+================================ */
+@media (max-width: 400px) {
+  .login-box {
+    width: 90%;
+  }
+}
