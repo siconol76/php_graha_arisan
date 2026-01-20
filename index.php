@@ -8,7 +8,7 @@
 
 <div class="landing-container">
   <div class="landing-box">
-    <h1>Selamat Datang di Sistem Arisan</h1>
+    <h1>Selamat Datang di Sistem Arisan Graha Tirta</h1>
     <p>Gunakan sistem ini untuk mengelola arisan secara profesional dan aman</p>
     <a href="../arisan/auth/login.php" class="btn-enter">Masuk ke Sistem</a>
   </div>
