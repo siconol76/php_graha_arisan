@@ -1,10 +1,10 @@
-<?php
+<?php 
 if (session_status() === PHP_SESSION_NONE) {
     session_start();
 }
 
 if (!isset($_SESSION['login'])) {
-    header("Location: ../masuk.php");
+    header("Location: ../login.php");
     exit;
 }
 
@@ -38,8 +38,7 @@ while($d = mysqli_fetch_assoc($q)){
   <li><a href="../transaksi/input.php">Input Transaksi</a></li>
   <li><a href="../laporan/rekap_bulanan.php">Rekap Bulanan</a></li>
   <li><a href="../laporan/rekap_detail.php">Detail Transaksi</a></li>
-  <li><a href="../auth/keluar.php">Logout</a></li>
-  <a href="masuk.php" class="btn-enter">Masuk ke Sistem</a>
+  <li><a href="../auth/logout.php">Logout</a></li>
 </ul>
 </div>
 

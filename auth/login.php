@@ -1,3 +1,11 @@
+<?php
+// Kalau sudah login, langsung ke dashboard
+session_start();
+if (isset($_SESSION['login'])) {
+    header("Location: ../dashboard/index.php");
+    exit;
+}
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -39,3 +47,4 @@ function toggle(){
 
 </body>
 </html>
+

@@ -4,7 +4,7 @@ session_start();
 // Hapus semua session
 $_SESSION = [];
 
-// Hapus session cookie (opsional tapi disarankan)
+// Hapus session cookie (opsional tapi direkomendasikan)
 if (ini_get("session.use_cookies")) {
     $params = session_get_cookie_params();
     setcookie(session_name(), '', time() - 42000,
@@ -13,8 +13,8 @@ if (ini_get("session.use_cookies")) {
     );
 }
 
-session_destroy(); // Hancurkan session
+session_destroy();
 
 // Redirect ke login
-header("Location: /arisan/auth/masuk.php");
+header("Location: ../index.php");
 exit;

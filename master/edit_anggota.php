@@ -6,7 +6,7 @@ if (!isset($_SESSION['login'])) {
     header("Location: ../masuk.php");
     exit;
 }
-
+include __DIR__ . "/../auth/auth_check.php";
 include __DIR__ . "/../config/koneksi.php";
 
 $id = $_GET['id'] ?? "";

@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.landing-container {
+  text-align: center;
+  padding: 24px;
+}
+
+.landing-box {
+  background: rgba(255, 255, 255, 0.15);
+  padding: 32px;
+  border-radius: 12px;
+}
+
+.btn-enter {
+  display: inline-block;
+  padding: 12px 22px;
+  background: #fff;
+  color: #1e3c72;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 16px;
+}

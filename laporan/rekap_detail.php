@@ -7,7 +7,7 @@ if (!isset($_SESSION['login'])) {
     header("Location: ../masuk.php");
     exit;
 }
-
+include __DIR__ . "/../auth/auth_check.php";
 include __DIR__ . "/../config/koneksi.php";
 
 $tgl_awal  = $_GET['tgl_awal']  ?? '2026-01-01';
